@@ -18,3 +18,5 @@ def predict():
   
 # start the flask app, allow remote connections
 app.run(host='0.0.0.0', port = 80)
+
+# ip/predict?msg=Hi_from_docker
